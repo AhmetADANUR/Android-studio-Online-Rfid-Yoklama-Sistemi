@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Üstteki resim ve etiket -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+
+
+        <TextView
+            android:id="@+id/textViewRfidLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RFID NO : "
+            android:textSize="18sp"
+            android:layout_gravity="center_vertical" />
+
+        <TextView
+            android:id="@+id/textViewRfidNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="________"
+            android:textSize="18sp"
+            android:layout_gravity="center_vertical" />
+
+
+    </LinearLayout>
+
+    <!-- Büyük resim alanı -->
+    <ImageView
+        android:id="@+id/imageViewLarge"
+        android:layout_width="147dp"
+        android:layout_height="132dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/men" />
+
+    <!-- Cinsiyet -->
+    <RadioGroup
+        android:id="@+id/radioGroupCinsiyet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewCinsiyetLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cinsiyet: "
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/radioButtonErkek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:checked="true"
+            android:text="Erkek"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/radioButtonKadin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="Kadın"
+            android:textSize="18sp" />
+
+    </RadioGroup>
+
+    <!-- TC -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:id="@+id/textViewTcLabel"
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:text="TC: "
+            android:textSize="18sp" />
+
+
+
+        <EditText
+            android:id="@+id/editTextTc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:hint="TC"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <!-- Tel No -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:id="@+id/textViewTelNoLabel"
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:text="Tel No: "
+            android:textSize="18sp" />
+
+
+
+        <EditText
+            android:id="@+id/editTextTelNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:hint="Tel No"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <!-- Okul No -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:id="@+id/textViewOkulNoLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Okul No: "
+            android:textSize="18sp" />
+
+
+
+        <EditText
+            android:id="@+id/editTextOkulNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:hint="Okul No"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <!-- Sınıf -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:id="@+id/textViewSinifLabel"
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:text="Sınıf: "
+            android:textSize="18sp" />
+
+
+
+        <EditText
+            android:id="@+id/editTextSinif"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:hint="Sınıf"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <!-- Ad -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:id="@+id/textViewAdLabel"
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:text="Ad: "
+            android:textSize="18sp" />
+
+
+
+        <EditText
+            android:id="@+id/editTextAd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:hint="Ad"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <!-- Soyad -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:id="@+id/textViewSoyadLabel"
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:text="Soyad: "
+            android:textSize="18sp" />
+
+
+        <EditText
+            android:id="@+id/editTextSoyad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:hint="Soyad"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonKayit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kayıt"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp" />
+
+
+
+</LinearLayout>

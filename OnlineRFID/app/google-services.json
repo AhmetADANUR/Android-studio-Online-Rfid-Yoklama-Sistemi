@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1098419550047",
+    "project_id": "nfc10-a45f4",
+    "storage_bucket": "nfc10-a45f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1098419550047:android:68ba2b91ac07e653e428ea",
+        "android_client_info": {
+          "package_name": "com.example.onlinerfid"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkawaFUMTY6JI_dgkRTYyMFNTqj3v7NT0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
