@@ -9,8 +9,8 @@ Wi-Fi Bağlantısı
 
 | Görsel 1 | Görsel 2 | Görsel 3 |
 |----------|----------|----------|
-| ![Görsel 1](images/Resim1.png) | ![Görsel 2](images/Resim2.png) | ![Görsel 3](images/Resim3.png) |
+| ![Görsel 1](images/image1.png) | ![Görsel 2](images/image2.png) | ![Görsel 3](images/image3.png) |
 
 | Görsel 4 | Görsel 5 | Görsel 6 |
 |----------|----------|----------|
-| ![Görsel 4](images/Resim4.png) | ![Görsel 5](images/Resim5.png) | ![Görsel 6](images/Resim6.png) |
+| ![Görsel 4](images/image4.png) | ![Görsel 5](images/image5.png) | ![Görsel 6](images/image6.png) |
